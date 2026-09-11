@@ -2,6 +2,8 @@
 
 Explore the original Transformer and DeepSeek V4.1 Flash in interactive 3D. Follow the token flow, zoom inside the components, or take a one-minute tour of what changed.
 
+Built with **GPT-6-Astra** in Codex.
+
 **[Open the live demo →](https://transformer-architecture.petergostev.chatgpt.site/)**
 
 ![The original Transformer and DeepSeek V4.1 Flash, side by side in story mode](docs/screenshots/overview.png)
@@ -47,6 +49,12 @@ See [development notes](docs/development.md) for Blender editing and checks.
 Based on [Attention Is All You Need](https://arxiv.org/abs/1706.03762) and the [DeepSeek V4.1 Flash technical report](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/resolve/main/DeepSeek_V41_Tech_Report.pdf), checked on 10 September 2026. The app’s **Sources** panel explains individual quantities and assumptions; [provenance.json](provenance.json) records source and asset hashes.
 
 This is an educational visualization. Token traffic, attention patterns and routing are schematic; they do not run a neural network or measure inference speed. Cache illustrations explicitly compare different storage scopes.
+
+## Build usage
+
+The main Codex project session recorded approximately **83.7 million tokens** through the first public GitHub release on 11 September 2026: **80.9M cached input**, **2.4M uncached input**, and **397K output**, including reasoning.
+
+These figures come from the session logs and include repeated context across model calls; they are not the amount of unique text or code generated. See the [exact counts and counting method](docs/build-usage.json).
 
 ## License
 

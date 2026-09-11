@@ -1,0 +1,14 @@
+{
+  "scope": "Main Codex project session through the first public GitHub release; excludes later README attribution work and separate agent sessions.",
+  "as_of_utc": "2026-09-11T15:57:22.415Z",
+  "model": "gpt-6-astra",
+  "total_tokens": 83656404,
+  "input_tokens": 83259061,
+  "cached_input_tokens": 80862592,
+  "uncached_input_tokens": 2396469,
+  "output_tokens": 397343,
+  "reasoning_output_tokens_included_in_output": 180957,
+  "recorded_model_calls": 600,
+  "counter_segments": 4,
+  "method": "Summed the final cumulative token counters in four monotonic counter segments, ignoring duplicate snapshots. Cross-checked against summed last-call usage for all distinct snapshots. Cached input is part of input, and reasoning output is part of output; neither is added twice. These counts include repeated context and are not unique words, generated code size, a bill, or a benchmark."
+}
