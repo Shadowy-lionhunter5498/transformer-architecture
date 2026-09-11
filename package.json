@@ -1,0 +1,14 @@
+{
+  "name": "transformer-architecture",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Explore the original Transformer and DeepSeek V4.1 Flash in interactive 3D.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/architecture.mjs && node tests/story.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

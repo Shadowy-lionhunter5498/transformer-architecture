@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.blend1
+*.blend2
+.env
+.env.*
+.openai/

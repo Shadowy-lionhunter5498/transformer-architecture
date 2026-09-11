@@ -1,0 +1,4 @@
+dist/vendor/** linguist-vendored
+*.glb binary
+*.blend binary
+*.png binary

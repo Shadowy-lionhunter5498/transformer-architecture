@@ -1,0 +1,62 @@
+{
+  "checked_date": "2026-09-10",
+  "blender": "5.2.1 LTS",
+  "renderer": "Three.js 0.180.0",
+  "research_sources": [
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/resolve/main/DeepSeek_V41_Tech_Report.pdf",
+      "sha256": "ba68e2e40408125ae6d2f63a9a241b61c73910691c74ec1a2a7023c851eac08d"
+    },
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/resolve/main/config.json",
+      "sha256": "8be45ce0476004a3f529fd896115a4a2e800a129ad2d3ec05b16050f52e21879"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1706.03762",
+      "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697"
+    }
+  ],
+  "geometry": {
+    "detail_kit.glb": {
+      "bytes": 4944664,
+      "nodes": 646,
+      "sha256": "3ae279b4956a06b97142a0879ed6498b064ea453957511eef3417188b5983c68"
+    },
+    "spatial-original.glb": {
+      "bytes": 536072,
+      "nodes": 347,
+      "sha256": "afa60df870c2697f26213895b66be62393fb1cfe43c4e3c4c9aa6c6a80eb9eaa"
+    },
+    "spatial-deepseek.glb": {
+      "bytes": 716752,
+      "nodes": 512,
+      "sha256": "4df5d7c64e8015b826d0d27e3c8357230a66dc6229b2430d83d53c5d7ee6e7ee"
+    }
+  },
+  "interaction_revision": "Revision 9: Explore by default; optional one-minute story opens with both models side by side and keeps that layout throughout. Continuous camera paths move between 17 short, source-grounded beats without cuts or static holds; chapter navigation glides to its destination.",
+  "diagram_checks": {
+    "original_nodes": 24,
+    "original_edges": 30,
+    "original_residual_loops": 5,
+    "deepseek_nodes": 28,
+    "deepseek_edges": 26,
+    "grouped_encoder_layers": 20,
+    "grouped_decoder_layers": 20
+  },
+  "motion": "Concurrent grouped activation pathways, schematic attention and expert routing, not inference timing. DSpark illustrates an accepted prefix of three of five candidates.",
+  "story": {
+    "duration_seconds": 60,
+    "chapters": 8,
+    "cues": 17,
+    "default_mode": "Explore",
+    "start": "explicit Story mode button only",
+    "layout": "Both models stay side by side at every viewport width",
+    "camera": "Shape-preserving cubic paths with continuous position and velocity; 3\u20135 second beats",
+    "validation_groups_passed": 6,
+    "captions": "Per-cue component names and factual comparisons of architecture, counts and operations."
+  },
+  "validation": {
+    "command": "npm test",
+    "scope": "Architecture invariants and story playback/camera continuity. Illustrative motion, not neural inference or benchmarking."
+  }
+}
